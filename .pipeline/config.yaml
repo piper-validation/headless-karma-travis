@@ -1,0 +1,4 @@
+steps:
+  karmaExecuteTests:
+    installCommand: npm install --quiet --no-audit
+    runCommand: npm test
