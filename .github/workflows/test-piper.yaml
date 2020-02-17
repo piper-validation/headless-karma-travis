@@ -7,6 +7,9 @@ jobs:
     - uses: actions/checkout@v1
     - uses: SAP/project-piper-action@master
       with:
+        command: help
+    - uses: SAP/project-piper-action@master
+      with:
         command: version
         flags: -v
     - uses: SAP/project-piper-action@master
