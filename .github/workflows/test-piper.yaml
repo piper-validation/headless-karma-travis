@@ -19,3 +19,11 @@ jobs:
     - uses: SAP/project-piper-action@master
       with:
         command: karmaExecuteTests
+    - uses: SAP/project-piper-action@master
+      with:
+        command: karmaExecuteTests
+        piper-version: master
+    - uses: SAP/project-piper-action@master
+      with:
+        command: karmaExecuteTests
+        piper-version: v1.14.0
